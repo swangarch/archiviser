@@ -15,6 +15,7 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+#example, #cases, #install { scroll-margin-top: 96px; }
 body {
   margin: 0;
   color: var(--ink);
@@ -362,6 +363,7 @@ button { font: inherit; }
 }
 
 @media (max-width: 760px) {
+  #example, #cases, #install { scroll-margin-top: 76px; }
   .site-header { grid-template-columns: 1fr auto; min-height: 64px; }
   .site-nav { display: none; }
   .brand-name { display: none; }

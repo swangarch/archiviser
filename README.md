@@ -240,4 +240,4 @@ Before opening a contribution, validate that the workflow protects its declared 
 
 ## License
 
-A license has not yet been selected. Choose and add an open-source license before the first public release.
+Archiviser Skills is released under the [MIT License](LICENSE).
