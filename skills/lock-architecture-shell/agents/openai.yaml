@@ -1,0 +1,9 @@
+interface:
+  display_name: Architecture Shell Lock
+  short_description: Protect walls, openings, camera, and fixed geometry.
+  default_prompt: Use $lock-architecture-shell to redesign finishes and furniture
+    without changing any fixed architectural geometry.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

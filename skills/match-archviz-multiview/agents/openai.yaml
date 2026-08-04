@@ -1,0 +1,9 @@
+interface:
+  display_name: Archviz Multiview Matcher
+  short_description: Keep reverse and companion views spatially consistent.
+  default_prompt: Use $match-archviz-multiview to generate a second view that belongs
+    to exactly the same architectural design.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

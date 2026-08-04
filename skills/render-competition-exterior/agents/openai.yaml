@@ -1,0 +1,9 @@
+interface:
+  display_name: Competition Exterior Renderer
+  short_description: Create competition-grade exterior day and night renders.
+  default_prompt: Use $render-competition-exterior to turn this architectural massing
+    image into a refined competition render.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

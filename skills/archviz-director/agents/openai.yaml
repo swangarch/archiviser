@@ -1,0 +1,9 @@
+interface:
+  display_name: Archviz Director
+  short_description: Route architectural visualization tasks to the right workflow.
+  default_prompt: Use $archviz-director to choose and run the best architectural visualization
+    workflow for this image.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

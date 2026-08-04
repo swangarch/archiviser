@@ -1,0 +1,9 @@
+interface:
+  display_name: Residential Interior Renderer
+  short_description: Transform residential CG views into editorial interiors.
+  default_prompt: Use $render-residential-interior to redesign and render this residential
+    interior at editorial quality.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

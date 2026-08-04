@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Archivizer Skills is an expanding open-source collection of reusable Agent Skills for architectural visualization, image generation, editing, consistency, and quality control."
+    />
+    <meta name="theme-color" content="#ebe9e1" />
+    <title>Archivizer Skills — Open Agent Skills for architectural visualization</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Archivizer Skills home">
+        <span class="brand-mark" aria-hidden="true">A/S</span>
+        <span class="brand-name">Archivizer Skills</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#skills">Skills</a>
+        <a href="#context">What it is</a>
+        <a href="#example">How it works</a>
+        <a href="#cases">Results</a>
+        <a href="#install">Install</a>
+      </nav>
+      <a class="header-cta" href="#install">Install in Codex <span aria-hidden="true">↓</span></a>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">Open-source · Growing collection · Image-capable</p>
+          <h1><span>Archivizer</span><span>Skills.</span></h1>
+          <p class="hero-intro">
+            Archivizer Skills is a growing set of ready-made AI workflows for architects and
+            designers. Upload a sketch or render, choose a skill, and tell Codex what you want the
+            AI to create, edit, or repair.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#skills">Explore current skills</a>
+            <a class="button button-quiet" href="#install">Install in Codex</a>
+          </div>
+        </div>
+
+        <figure class="hero-visual">
+          <img src="assets/public-library-interior.webp" alt="Contemporary public library organized around a broad timber reading stair" />
+          <figcaption>
+            <span>Case 02 · Public interior</span>
+            <span>48.857° N / 2.352° E</span>
+          </figcaption>
+          <span class="crosshair crosshair-a" aria-hidden="true"></span>
+          <span class="crosshair crosshair-b" aria-hidden="true"></span>
+        </figure>
+
+        <div class="hero-index" aria-label="Project facts">
+          <div><strong>10</strong><span>skills in the current release</span></div>
+          <div><strong>06</strong><span>current capability categories</span></div>
+          <div><strong>↗</strong><span>more skills and modules in development</span></div>
+        </div>
+      </section>
+
+      <section class="manifesto reveal" id="context">
+        <p class="section-number">01 / What this is</p>
+        <p class="manifesto-lead">
+          A skill teaches an AI<br />how to do one visual task.
+        </p>
+        <div class="manifesto-copy">
+          <p>
+            Codex is an AI agent: an assistant that can read your files, follow a selected skill,
+            use an image generator, and return the finished image. You describe the design goal in
+            normal language; the skill gives the AI a clear method and a checklist.
+          </p>
+          <p>
+            Each skill explains what the AI may change, what must stay fixed, and what to check before
+            delivery. Use Codex, ChatGPT, or another AI agent that can understand and generate images.
+          </p>
+        </div>
+      </section>
+
+      <section class="usage" id="example">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-number">02 / Example</p>
+            <h2>Tell the AI what<br />you need.</h2>
+          </div>
+          <p>You do not need to learn technical AI language. Attach your image, name a skill, and describe the result as you would brief a visualization artist.</p>
+        </div>
+
+        <div class="usage-demo reveal">
+          <div class="codex-window" aria-label="Example conversation in Codex">
+            <div class="codex-bar">
+              <span class="codex-dot"></span>
+              <strong>Codex</strong>
+              <span>New visual task</span>
+            </div>
+            <div class="codex-thread">
+              <div class="file-chip"><span>IMG</span><div><strong>living-room-base.png</strong><small>Reference image attached</small></div></div>
+              <div class="message message-user">
+                <span>You</span>
+                <p>Use <code>$render-residential-interior</code>. Keep the walls, windows, ceiling and camera unchanged. Turn this basic view into a bright home with oak, travertine, linen and soft daylight.</p>
+              </div>
+              <div class="message message-agent">
+                <span>Codex · using the selected skill</span>
+                <p>I’ll preserve the architectural shell and camera, generate the interior, then check the furniture scale, materials and daylight before returning the image.</p>
+              </div>
+            </div>
+          </div>
+
+          <figure class="usage-result">
+            <img src="assets/residential-interior.webp" alt="Finished residential interior generated after using the residential interior skill" />
+            <figcaption><span>Result</span><span>Architecture preserved · Interior completed</span></figcaption>
+          </figure>
+        </div>
+
+        <ol class="usage-steps reveal">
+          <li><span>01</span><strong>Attach</strong><p>Add your sketch, screenshot, CG view, or render.</p></li>
+          <li><span>02</span><strong>Choose</strong><p>Name the skill that matches the task.</p></li>
+          <li><span>03</span><strong>Describe</strong><p>Say what should change and what must stay fixed.</p></li>
+          <li><span>04</span><strong>Receive</strong><p>The AI follows the workflow and returns the image.</p></li>
+        </ol>
+      </section>
+
+      <section class="cases" id="cases">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-number">03 / Capabilities</p>
+            <h2>See what each<br />skill can change.</h2>
+          </div>
+          <p>These examples show five practical jobs: create a finished exterior, complete a public interior, replace one object, match several views, or repair a damaged render.</p>
+        </div>
+
+        <article class="case case-wide reveal" id="case-atmosphere">
+          <header class="case-header">
+            <div><span class="case-number">01</span><span class="case-type">Generate · Exterior</span></div>
+            <h3>Create a finished<br />competition exterior</h3>
+            <p>Turn a massing image, sketch, collage, or basic CG view into a polished exterior while keeping the building readable and credible.</p>
+          </header>
+          <div class="diptych">
+            <figure>
+              <img src="assets/competition-exterior.webp" alt="Rural brick cultural center in soft daylight" />
+              <figcaption>Day · Rural cultural center</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/blue-hour-waterfront-exterior.webp" alt="Brick waterfront arts pavilion at blue hour" />
+              <figcaption>Blue hour · Waterfront arts pavilion</figcaption>
+            </figure>
+          </div>
+          <footer class="case-footer">
+            <a href="https://github.com/swangarch/architecture-skills/blob/main/skills/render-competition-exterior/SKILL.md">$render-competition-exterior ↗</a>
+            <span>Scene · Material hierarchy · Human scale · Exposure</span>
+          </footer>
+        </article>
+
+        <article class="case case-offset reveal" id="case-public">
+          <header class="case-header">
+            <div><span class="case-number">02</span><span class="case-type">Generate · Public interior</span></div>
+            <h3>Make a public interior<br />feel real and occupied</h3>
+            <p>Develop a library, museum, or civic interior with believable materials, daylight, people, circulation, and activity.</p>
+          </header>
+          <figure class="single-image">
+            <img src="assets/public-library-interior.webp" alt="Public library with timber amphitheater stair and active reading areas" />
+            <figcaption>Public library · Reading stair · Soft skylight</figcaption>
+          </figure>
+          <footer class="case-footer">
+            <a href="https://github.com/swangarch/architecture-skills/blob/main/skills/render-public-interior/SKILL.md">$render-public-interior ↗</a>
+            <span>Program · Activity · Section · Material depth</span>
+          </footer>
+        </article>
+
+        <article class="case reveal" id="case-edit">
+          <header class="case-header">
+            <div><span class="case-number">03</span><span class="case-type">Edit · Surgical</span></div>
+            <h3>Replace one object.<br />Keep the room unchanged.</h3>
+            <p>Drag the handle to compare the edit. Only the sofa changes; the camera, architecture, lighting, and other furniture stay fixed.</p>
+          </header>
+          <div class="compare" style="--position: 50%" data-compare>
+            <div class="compare-stage">
+              <img class="compare-image" src="assets/modern-french-object-edit.webp" alt="Edited Parisian living room with burgundy sofa" />
+              <div class="compare-overlay">
+                <img class="compare-image" src="assets/modern-french-interior.webp" alt="Original Parisian living room with white sofa" />
+              </div>
+              <span class="compare-label compare-label-before">Before</span>
+              <span class="compare-label compare-label-after">After</span>
+              <div class="compare-handle" aria-hidden="true"><span>↔</span></div>
+              <input class="compare-range" type="range" min="0" max="100" value="50" aria-label="Compare original and edited living room" />
+            </div>
+          </div>
+          <footer class="case-footer">
+            <a href="https://github.com/swangarch/architecture-skills/blob/main/skills/edit-archviz-objects/SKILL.md">$edit-archviz-objects ↗</a>
+            <span>Named edit · Preserve list · Same footprint · Drift check</span>
+          </footer>
+        </article>
+
+        <article class="case reveal" id="case-multiview">
+          <header class="case-header">
+            <div><span class="case-number">04</span><span class="case-type">Control · Multiview</span></div>
+            <h3>Keep one design consistent<br />across different views</h3>
+            <p>Generate another camera view of the same room while keeping its architecture, furniture, materials, objects, and lighting consistent.</p>
+          </header>
+          <div class="diptych multiview-pair">
+            <figure>
+              <img src="assets/art-nouveau-deco-interior.webp" alt="Art Nouveau and Art Deco living room first camera" />
+              <figcaption>Camera A · Approved design source</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/art-nouveau-deco-companion-view.webp" alt="Same Art Nouveau and Art Deco room from a reverse camera" />
+              <figcaption>Camera B · Reverse companion view</figcaption>
+            </figure>
+          </div>
+          <footer class="case-footer">
+            <a href="https://github.com/swangarch/architecture-skills/blob/main/skills/match-archviz-multiview/SKILL.md">$match-archviz-multiview ↗</a>
+            <span>Inventory · Shared anchors · Camera translation · Conflict hierarchy</span>
+          </footer>
+        </article>
+
+        <article class="case case-dark reveal" id="case-restore">
+          <header class="case-header">
+            <div><span class="case-number">05</span><span class="case-type">Repair · Quality</span></div>
+            <h3>Repair image quality.<br />Do not change the design.</h3>
+            <p>Fix noisy textures, broken edges, vegetation, materials, and small geometry while preserving the approved architecture and composition.</p>
+          </header>
+          <div class="compare" style="--position: 50%" data-compare>
+            <div class="compare-stage">
+              <img class="compare-image" src="assets/competition-exterior.webp" alt="Restored high-quality competition exterior" />
+              <div class="compare-overlay">
+                <img class="compare-image" src="assets/competition-exterior-degraded.webp" alt="Degraded competition exterior with texture and geometry artifacts" />
+              </div>
+              <span class="compare-label compare-label-before">Degraded</span>
+              <span class="compare-label compare-label-after">Restored</span>
+              <div class="compare-handle" aria-hidden="true"><span>↔</span></div>
+              <input class="compare-range" type="range" min="0" max="100" value="50" aria-label="Compare degraded and restored exterior render" />
+            </div>
+          </div>
+          <footer class="case-footer">
+            <a href="https://github.com/swangarch/architecture-skills/blob/main/skills/restore-archviz-quality/SKILL.md">$restore-archviz-quality ↗</a>
+            <span>Same design · Rebuilt materials · Clean geometry · Natural sharpness</span>
+          </footer>
+        </article>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-number">00 / Skills</p>
+            <h2>Current skills.<br />Visible effects.</h2>
+            <p class="section-summary">Version 0.1 starts with ten architectural visualization workflows. This catalog will continue to grow with new visual skills and future architecture modules.</p>
+          </div>
+          <div class="skill-filters" role="group" aria-label="Filter skills">
+            <button class="filter is-active" type="button" data-filter="all">All 10</button>
+            <button class="filter" type="button" data-filter="workflow">Workflow 1</button>
+            <button class="filter" type="button" data-filter="rendering">Rendering 3</button>
+            <button class="filter" type="button" data-filter="style">Style 2</button>
+            <button class="filter" type="button" data-filter="consistency">Consistency 2</button>
+            <button class="filter" type="button" data-filter="editing">Editing 1</button>
+            <button class="filter" type="button" data-filter="quality">Quality 1</button>
+          </div>
+        </div>
+
+        <div class="skill-grid">
+          <a class="skill-card reveal" data-category="workflow" href="https://github.com/swangarch/architecture-skills/blob/main/skills/archviz-director/SKILL.md">
+            <div class="skill-image"><img src="assets/archviz-director-overview.webp" alt="One coordinated architectural project shown across day, night, interior, and material views" /></div>
+            <div class="skill-card-body"><div class="skill-meta"><span class="skill-id">00</span><span class="skill-category">Workflow</span></div>
+            <h3>Archviz Director</h3><p>Turns mixed references into one coordinated visual workflow.</p><span class="skill-arrow">↗</span></div>
+          </a>
+          <a class="skill-card reveal" data-category="rendering" href="https://github.com/swangarch/architecture-skills/blob/main/skills/render-competition-exterior/SKILL.md">
+            <div class="skill-image"><img src="assets/blue-hour-waterfront-exterior.webp" alt="Brick waterfront arts pavilion at blue hour" /></div>
+            <div class="skill-card-body"><div class="skill-meta"><span class="skill-id">01</span><span class="skill-category">Rendering</span></div>
+            <h3>Competition Exterior</h3><p>Creates authored exterior images with atmosphere and architectural clarity.</p><span class="skill-arrow">↗</span></div>
+          </a>
+          <a class="skill-card reveal" data-category="rendering" href="https://github.com/swangarch/architecture-skills/blob/main/skills/render-public-interior/SKILL.md">
+            <div class="skill-image"><img src="assets/public-library-interior.webp" alt="Public library organized around an inhabited timber reading stair" /></div>
+            <div class="skill-card-body"><div class="skill-meta"><span class="skill-id">02</span><span class="skill-category">Rendering</span></div>
+            <h3>Public Interior</h3><p>Makes civic spaces believable through program, people, and material depth.</p><span class="skill-arrow">↗</span></div>
+          </a>
+          <a class="skill-card reveal" data-category="rendering" href="https://github.com/swangarch/architecture-skills/blob/main/skills/render-residential-interior/SKILL.md">
+            <div class="skill-image"><img src="assets/residential-interior.webp" alt="Bright split-level residential interior with a library wall and social seating group" /></div>
+            <div class="skill-card-body"><div class="skill-meta"><span class="skill-id">03</span><span class="skill-category">Rendering</span></div>
+            <h3>Residential Interior</h3><p>Builds coherent homes around circulation, furniture grouping, and light.</p><span class="skill-arrow">↗</span></div>
+          </a>
+          <a class="skill-card reveal" data-category="style" href="https://github.com/swangarch/architecture-skills/blob/main/skills/design-modern-french/SKILL.md">
+            <div class="skill-image"><img src="assets/modern-french-interior.webp" alt="Restrained contemporary French living room in a Paris apartment" /></div>
+            <div class="skill-card-body"><div class="skill-meta"><span class="skill-id">04</span><span class="skill-category">Style</span></div>
+            <h3>Modern French</h3><p>Adds Parisian proportion and refinement without becoming ornate.</p><span class="skill-arrow">↗</span></div>
+          </a>
+          <a class="skill-card reveal" data-category="style" href="https://github.com/swangarch/architecture-skills/blob/main/skills/design-art-nouveau-deco/SKILL.md">
+            <div class="skill-image"><img src="assets/art-nouveau-deco-interior.webp" alt="Contemporary interior combining botanical Art Nouveau gestures with Art Deco geometry" /></div>
+            <div class="skill-card-body"><div class="skill-meta"><span class="skill-id">05</span><span class="skill-category">Style</span></div>
+            <h3>Nouveau × Deco</h3><p>Balances organic line with disciplined 1920s geometry.</p><span class="skill-arrow">↗</span></div>
+          </a>
+          <a class="skill-card reveal" data-category="consistency" href="https://github.com/swangarch/architecture-skills/blob/main/skills/lock-architecture-shell/SKILL.md">
+            <div class="skill-image"><img src="assets/architecture-shell-lock.webp" alt="Before and after interior comparison with identical walls, arch, beam, window, and kitchen footprint" /></div>
+            <div class="skill-card-body"><div class="skill-meta"><span class="skill-id">06</span><span class="skill-category">Consistency</span></div>
+            <h3>Architecture Lock</h3><p>Changes finishes and furniture while the construction stays fixed.</p><span class="skill-arrow">↗</span></div>
+          </a>
+          <a class="skill-card reveal" data-category="consistency" href="https://github.com/swangarch/architecture-skills/blob/main/skills/match-archviz-multiview/SKILL.md">
+            <div class="skill-image"><img src="assets/art-nouveau-deco-companion-view.webp" alt="Reverse companion camera of the same Art Nouveau and Art Deco living room" /></div>
+            <div class="skill-card-body"><div class="skill-meta"><span class="skill-id">07</span><span class="skill-category">Consistency</span></div>
+            <h3>Multiview Match</h3><p>Keeps the same project consistent across different cameras.</p><span class="skill-arrow">↗</span></div>
+          </a>
+          <a class="skill-card reveal" data-category="editing" href="https://github.com/swangarch/architecture-skills/blob/main/skills/edit-archviz-objects/SKILL.md">
+            <div class="skill-image"><img src="assets/modern-french-object-edit.webp" alt="Parisian living room after a precise sofa-only replacement" /></div>
+            <div class="skill-card-body"><div class="skill-meta"><span class="skill-id">08</span><span class="skill-category">Editing</span></div>
+            <h3>Object Editor</h3><p>Replaces one named object without disturbing the approved room.</p><span class="skill-arrow">↗</span></div>
+          </a>
+          <a class="skill-card reveal" data-category="quality" href="https://github.com/swangarch/architecture-skills/blob/main/skills/restore-archviz-quality/SKILL.md">
+            <div class="skill-image"><img src="assets/competition-exterior.webp" alt="Restored high-detail competition exterior with clean materials and geometry" /></div>
+            <div class="skill-card-body"><div class="skill-meta"><span class="skill-id">09</span><span class="skill-category">Quality</span></div>
+            <h3>Quality Restorer</h3><p>Rebuilds damaged materials and detail without redesigning the image.</p><span class="skill-arrow">↗</span></div>
+          </a>
+        </div>
+      </section>
+
+      <section class="method" id="method">
+        <div class="section-heading reveal">
+          <div><p class="section-number">04 / Method</p><h2>How every skill works.</h2></div>
+          <p>Each specialist has a different purpose, but all follow the same four-part control loop: read the evidence, lock invariants, make the authorized change, and compare the result.</p>
+        </div>
+        <ol class="method-list">
+          <li class="reveal"><span>01</span><h3>Read</h3><p>Inspect every input and assign its authority.</p></li>
+          <li class="reveal"><span>02</span><h3>Lock</h3><p>Declare geometry, design, and objects that cannot drift.</p></li>
+          <li class="reveal"><span>03</span><h3>Make</h3><p>Generate or edit only inside the authorized layer.</p></li>
+          <li class="reveal"><span>04</span><h3>Compare</h3><p>Validate shared edges, anchors, materials, and scale.</p></li>
+        </ol>
+      </section>
+
+      <section class="install" id="install">
+        <div class="section-heading reveal">
+          <div><p class="section-number">05 / Install</p><h2>Use it in Codex.</h2></div>
+          <p>Add the GitHub repository as a Codex plugin marketplace, then install the skills-only plugin. Start a new thread after installation so Codex discovers the new skills.</p>
+        </div>
+        <div class="install-panel reveal">
+          <div>
+            <p class="install-label">Codex CLI</p>
+            <h3>Two commands,<br />one growing toolkit.</h3>
+            <p>The public one-click button will become available after the plugin receives a published or workspace share ID. Until then, these are the official reproducible installation steps.</p>
+          </div>
+          <div class="install-command">
+            <pre><code>codex plugin marketplace add swangarch/architecture-skills
+codex plugin add archivizer-skills@archivizer-skills</code></pre>
+            <button class="button button-dark copy-action" type="button" data-copy-label="Install commands copied" data-copy="codex plugin marketplace add swangarch/architecture-skills&#10;codex plugin add archivizer-skills@archivizer-skills">Copy install commands</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing reveal">
+        <p class="section-number">06 / Growing collection</p>
+        <h2>Ten skills are<br />only the beginning.</h2>
+        <p>Archivizer Skills is an active open-source project. The current visualization module will expand, followed by new skills for other parts of architectural work.</p>
+        <div class="closing-actions">
+          <button class="button button-light copy-action" type="button" data-copy-label="Starter prompt copied" data-copy="Use $archviz-director to inspect my references, protect the correct geometry, and route the project to the right visualization workflow.">Copy starter prompt</button>
+          <a class="button button-outline-light" href="https://github.com/swangarch/architecture-skills#readme">Read the documentation</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div><span class="brand-mark">A/S</span><span>Archivizer Skills</span></div>
+      <p>Open Agent Skills for architectural visual work.</p>
+      <p>v0.1 · Growing · <span id="year">2026</span></p>
+    </footer>
+
+    <div class="toast" role="status" aria-live="polite">Copied</div>
+  </body>
+</html>

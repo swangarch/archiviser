@@ -1,0 +1,9 @@
+interface:
+  display_name: Archviz Quality Restorer
+  short_description: Re-render degraded images without design drift.
+  default_prompt: Use $restore-archviz-quality to rebuild this image at high fidelity
+    without changing its approved design.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

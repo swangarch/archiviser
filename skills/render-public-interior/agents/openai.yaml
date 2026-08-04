@@ -1,0 +1,9 @@
+interface:
+  display_name: Public Interior Renderer
+  short_description: Render libraries, museums, pavilions, and civic interiors.
+  default_prompt: Use $render-public-interior to make this public interior spatial
+    image photorealistic and competition-ready.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

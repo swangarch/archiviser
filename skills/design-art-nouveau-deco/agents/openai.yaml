@@ -1,0 +1,9 @@
+interface:
+  display_name: Art Nouveau Deco Interior
+  short_description: Blend Art Nouveau curves with Art Deco discipline.
+  default_prompt: Use $design-art-nouveau-deco to reinterpret this room with refined
+    Art Nouveau and Art Deco influences.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

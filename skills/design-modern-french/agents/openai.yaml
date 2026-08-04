@@ -1,0 +1,9 @@
+interface:
+  display_name: Modern French Interior
+  short_description: Design restrained contemporary French residential interiors.
+  default_prompt: Use $design-modern-french to develop this room into a restrained
+    contemporary French interior.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
