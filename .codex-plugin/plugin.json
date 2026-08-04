@@ -1,15 +1,15 @@
 {
-  "name": "archivizer-skills",
+  "name": "archiviser-skills",
   "version": "0.1.0",
   "description": "An expanding collection of reusable Agent Skills for architectural visualization and visual production.",
   "author": {
     "name": "Shuai WANG"
   },
-  "repository": "https://github.com/swangarch/architecture-skills",
+  "repository": "https://github.com/swangarch/archiviser",
   "keywords": ["architecture", "visualization", "image-generation", "agent-skills"],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Archivizer Skills",
+    "displayName": "Archiviser Skills",
     "shortDescription": "Reusable workflows for architectural image models.",
     "longDescription": "A growing open-source collection of skills for directing architectural visualization, rendering exteriors and interiors, applying design languages, protecting fixed geometry, matching views, editing objects, and restoring image quality.",
     "developerName": "Shuai WANG",
@@ -20,7 +20,7 @@
       "Image editing",
       "Multi-view consistency"
     ],
-    "websiteURL": "https://github.com/swangarch/architecture-skills",
+    "websiteURL": "https://swangarch.github.io/archiviser/",
     "defaultPrompt": [
       "Use $archviz-director to inspect my references and choose the right workflow.",
       "Keep the architecture fixed and improve this visualization.",

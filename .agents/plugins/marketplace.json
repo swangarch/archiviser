@@ -1,14 +1,14 @@
 {
-  "name": "archivizer-skills",
+  "name": "archiviser-skills",
   "interface": {
-    "displayName": "Archivizer Skills"
+    "displayName": "Archiviser Skills"
   },
   "plugins": [
     {
-      "name": "archivizer-skills",
+      "name": "archiviser-skills",
       "source": {
         "source": "url",
-        "url": "https://github.com/swangarch/architecture-skills.git",
+        "url": "https://github.com/swangarch/archiviser.git",
         "ref": "main"
       },
       "policy": {

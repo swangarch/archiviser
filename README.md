@@ -1,18 +1,18 @@
-# Archivizer Skills
+# Archiviser Skills
 
 **Open workflows for architectural imagination.**
 
-Archivizer Skills is a growing open-source collection of ready-made AI workflows for architects and designers.
+Archiviser Skills is a growing open-source collection of ready-made AI workflows for architects and designers.
 
 Give Codex a sketch, screenshot, CG view, or render; choose the skill that matches your task; then describe the result in normal design language. The skill tells the AI what it may change, what must remain fixed, and what to check before returning the image.
 
 The current release begins with ten **architectural visualization** skills. It is not limited to these ten: the collection is actively expanding toward more visualization workflows and future modules for analysis, drawing, modeling, documentation, and presentation.
 
-![Archivizer Skills cover](assets/cover.png)
+![Archiviser Skills cover](assets/cover.png)
 
 ## Project website
 
-[Open the Archivizer Skills website](https://swangarch.github.io/architecture-skills/) or view the [local source](site/index.html).
+[Open the Archiviser Skills website](https://swangarch.github.io/archiviser/) or view the [local source](site/index.html).
 
 The website starts with an image-first skill gallery. Every skill in the current release has a dedicated example image and a one-line summary. It also shows how a designer uses a skill in Codex and includes practical examples for rendering, object editing, view consistency, and quality restoration.
 
@@ -28,15 +28,15 @@ Turn this basic view into a bright home with oak, travertine, linen and soft day
 
 Codex reads the selected skill, uses the available image-generation tool, preserves the requested architecture, and checks the result before returning it.
 
-![Example of using an Archivizer skill in Codex](assets/codex-workflow-example.png)
+![Example of using an Archiviser skill in Codex](assets/codex-workflow-example.png)
 
 ## Install in Codex
 
-Add this repository as a plugin marketplace, then install Archivizer Skills:
+Add this repository as a plugin marketplace, then install Archiviser Skills:
 
 ```bash
-codex plugin marketplace add swangarch/architecture-skills
-codex plugin add archivizer-skills@archivizer-skills
+codex plugin marketplace add swangarch/archiviser
+codex plugin add archiviser-skills@archiviser-skills
 ```
 
 Start a new Codex thread after installation so the new skills are discovered. A public one-click install URL can replace these commands after the plugin receives a published or workspace share ID.
@@ -45,7 +45,7 @@ Start a new Codex thread after installation so the new skills are discovered. A 
 
 Codex is an **AI agent**: an assistant that can read files, follow instructions, use tools such as an image generator, and return the result. A skill is a small set of instructions that teaches the agent how to complete one specific task.
 
-Each Archivizer skill tells the AI:
+Each Archiviser skill tells the AI:
 
 - which image or document is authoritative;
 - what may change and what must remain fixed;
