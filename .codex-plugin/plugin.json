@@ -1,11 +1,14 @@
 {
   "name": "archiviser-skills",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An expanding collection of reusable Agent Skills for architectural visualization and visual production.",
   "author": {
-    "name": "Shuai WANG"
+    "name": "Shuai WANG",
+    "url": "https://github.com/swangarch"
   },
+  "homepage": "https://swangarch.github.io/archiviser/",
   "repository": "https://github.com/swangarch/archiviser",
+  "license": "MIT",
   "keywords": ["architecture", "visualization", "image-generation", "agent-skills"],
   "skills": "./skills/",
   "interface": {
@@ -21,6 +24,15 @@
       "Multi-view consistency"
     ],
     "websiteURL": "https://swangarch.github.io/archiviser/",
+    "privacyPolicyURL": "https://swangarch.github.io/archiviser/privacy.html",
+    "termsOfServiceURL": "https://swangarch.github.io/archiviser/terms.html",
+    "brandColor": "#171813",
+    "composerIcon": "./skills/archviz-director/assets/icon.svg",
+    "logo": "./skills/archviz-director/assets/icon.svg",
+    "screenshots": [
+      "./assets/cover.png",
+      "./assets/codex-workflow-example.png"
+    ],
     "defaultPrompt": [
       "Use $archviz-director to inspect my references and choose the right workflow.",
       "Keep the architecture fixed and improve this visualization.",

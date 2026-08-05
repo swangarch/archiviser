@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Archiviser Skills is an expanding open-source collection of reusable Agent Skills for architectural visualization, image generation, editing, consistency, and quality control."
+      content="Archiviser is an open architectural intelligence project that uses skills to help AI agents understand design intent, reason about constraints, and direct visual work."
     />
     <meta name="theme-color" content="#ffffff" />
-    <title>Archiviser Skills — Open Agent Skills for architectural visualization</title>
+    <title>Archiviser — Intent-driven AI workflows for architectural visualization</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
@@ -16,33 +16,33 @@
     <a class="skip-link" href="#main">Skip to content</a>
 
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Archiviser Skills home">
+      <a class="brand" href="#top" aria-label="Archiviser home">
         <span class="brand-mark" aria-hidden="true">A/S</span>
-        <span class="brand-name">Archiviser Skills</span>
+        <span class="brand-name">Archiviser</span>
       </a>
       <nav class="site-nav" aria-label="Primary navigation">
-        <a href="#skills">Skills</a>
-        <a href="#context">What it is</a>
+        <a href="#context">About</a>
+        <a href="#why-agent">Why agent</a>
         <a href="#example">How it works</a>
         <a href="#cases">Results</a>
-        <a href="#install">Install</a>
+        <a href="skills.html">Skills</a>
       </nav>
-      <a class="header-cta" href="#install">Install in Codex <span aria-hidden="true">↓</span></a>
+      <a class="header-cta" href="skills.html">Explore skills <span aria-hidden="true">↗</span></a>
     </header>
 
     <main id="main">
       <section class="hero" id="top">
         <div class="hero-copy">
-          <p class="eyebrow">Open-source · Growing collection · Image-capable</p>
-          <h1><span>Archiviser</span><span>Skills.</span></h1>
+          <p class="eyebrow">Open-source · Intent-driven · Built for architecture</p>
+          <h1><span>Archiviser.</span><span>Think first.</span></h1>
           <p class="hero-intro">
-            Archiviser Skills is a growing set of ready-made AI workflows for architects and
-            designers. Upload a sketch or render, choose a skill, and tell Codex what you want the
-            AI to create, edit, or repair.
+            An open project that gives AI agents architectural ways of thinking. Archiviser uses
+            skills to understand your intent, reason about what matters, and build the right visual
+            approach for each task—not force every project through a fixed prompt.
           </p>
           <div class="hero-actions">
-            <a class="button button-dark" href="#skills">Explore current skills</a>
-            <a class="button button-quiet" href="#install">Install in Codex</a>
+            <a class="button button-dark" href="#context">Discover the project</a>
+            <a class="button button-quiet" href="skills.html">Browse skills</a>
           </div>
         </div>
 
@@ -57,45 +57,85 @@
         </figure>
 
         <div class="hero-index" aria-label="Project facts">
-          <div><strong>10</strong><span>skills in the current release</span></div>
-          <div><strong>06</strong><span>current capability categories</span></div>
-          <div><strong>↗</strong><span>more skills and modules in development</span></div>
+          <div><strong>Intent</strong><span>understood in natural design language</span></div>
+          <div><strong>Reason</strong><span>constraints resolved for each task</span></div>
+          <div><strong>Act</strong><span>a purpose-built visual brief is created</span></div>
         </div>
       </section>
 
       <section class="manifesto reveal" id="context">
-        <p class="section-number">01 / What this is</p>
+        <p class="section-number">01 / The project</p>
         <p class="manifesto-lead">
-          A skill teaches an AI<br />how to do one visual task.
+          Architectural intent<br />should come before prompts.
         </p>
         <div class="manifesto-copy">
           <p>
-            Codex is an AI agent: an assistant that can read your files, follow a selected skill,
-            use an image generator, and return the finished image. You describe the design goal in
-            normal language; the skill gives the AI a clear method and a checklist.
+            Archiviser is an open collection of architectural reasoning skills for AI agents. It
+            sits between your design intent and an image model: reading the brief, examining the
+            references, identifying constraints, and deciding how the task should be approached.
           </p>
           <p>
-            Each skill explains what the AI may change, what must stay fixed, and what to check before
-            delivery. Use Codex, ChatGPT, or another AI agent that can understand and generate images.
+            A skill is not a style preset or a stored magic prompt. It is reusable expertise: a way
+            for the agent to ask the right questions, distinguish what may change from what must stay
+            fixed, and verify that the result still belongs to your project.
           </p>
+        </div>
+      </section>
+
+      <section class="reasoning" id="why-agent">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-number">02 / Why skills + agents</p>
+            <h2>Every project asks<br />a different question.</h2>
+          </div>
+          <p>A fixed prompt repeats instructions. An agent interprets the situation. Archiviser gives that interpretation an architectural method.</p>
+        </div>
+
+        <div class="reasoning-grid reveal">
+          <article class="reasoning-card reasoning-card-muted">
+            <p class="reasoning-label">Traditional image workflow</p>
+            <h3>Start from<br />a fixed prompt.</h3>
+            <ol>
+              <li>Choose a template or preset</li>
+              <li>Replace keywords for the new scene</li>
+              <li>Generate and inspect the drift</li>
+              <li>Rewrite the prompt when context changes</li>
+            </ol>
+            <p class="reasoning-note">The instructions carry the intelligence. Custom work often means prompt maintenance.</p>
+          </article>
+          <article class="reasoning-card reasoning-card-accent">
+            <p class="reasoning-label">Archiviser workflow</p>
+            <h3>Start from<br />your intent.</h3>
+            <ol>
+              <li>Understand the goal and source material</li>
+              <li>Reason about authority and constraints</li>
+              <li>Design a task-specific visual brief</li>
+              <li>Generate, inspect, and adapt</li>
+            </ol>
+            <p class="reasoning-note">The agent carries the reasoning. The skill supplies architectural expertise without pre-deciding your answer.</p>
+          </article>
+        </div>
+
+        <div class="reasoning-statement reveal">
+          <span>Brief</span><i>→</i><span>Understand</span><i>→</i><span>Reason</span><i>→</i><span>Direct</span><i>→</i><span>Verify</span>
         </div>
       </section>
 
       <section class="usage" id="example">
         <div class="section-heading reveal">
           <div>
-            <p class="section-number">02 / Example</p>
-            <h2>Tell the AI what<br />you need.</h2>
+            <p class="section-number">03 / In practice</p>
+            <h2>Brief the goal.<br />Not the model.</h2>
           </div>
-          <p>You do not need to learn technical AI language. Attach your image, name a skill, and describe the result as you would brief a visualization artist.</p>
+          <p>Speak in normal design language. The agent uses Archiviser to translate your intent into a task-specific direction for the image model.</p>
         </div>
 
         <div class="usage-demo reveal">
           <div class="codex-window" aria-label="Example conversation in Codex">
             <div class="codex-bar">
               <span class="codex-dot"></span>
-              <strong>Codex</strong>
-              <span>New visual task</span>
+              <strong>AI agent</strong>
+              <span>Archiviser skill active</span>
             </div>
             <div class="codex-thread">
               <div class="file-chip"><span>IMG</span><div><strong>living-room-base.png</strong><small>Reference image attached</small></div></div>
@@ -104,7 +144,7 @@
                 <p>Use <code>$render-residential-interior</code>. Keep the walls, windows, ceiling and camera unchanged. Turn this basic view into a bright home with oak, travertine, linen and soft daylight.</p>
               </div>
               <div class="message message-agent">
-                <span>Codex · using the selected skill</span>
+                <span>Agent · reasoning with the selected skill</span>
                 <p>I’ll preserve the architectural shell and camera, generate the interior, then check the furniture scale, materials and daylight before returning the image.</p>
               </div>
             </div>
@@ -118,19 +158,19 @@
 
         <ol class="usage-steps reveal">
           <li><span>01</span><strong>Attach</strong><p>Add your sketch, screenshot, CG view, or render.</p></li>
-          <li><span>02</span><strong>Choose</strong><p>Name the skill that matches the task.</p></li>
-          <li><span>03</span><strong>Describe</strong><p>Say what should change and what must stay fixed.</p></li>
-          <li><span>04</span><strong>Receive</strong><p>The AI follows the workflow and returns the image.</p></li>
+          <li><span>02</span><strong>Express</strong><p>Describe the goal, priorities, and non-negotiables.</p></li>
+          <li><span>03</span><strong>Reason</strong><p>The agent selects expertise and builds a specific brief.</p></li>
+          <li><span>04</span><strong>Verify</strong><p>The result is checked against your original intent.</p></li>
         </ol>
       </section>
 
       <section class="cases" id="cases">
         <div class="section-heading reveal">
           <div>
-            <p class="section-number">03 / Capabilities</p>
-            <h2>See what each<br />skill can change.</h2>
+            <p class="section-number">04 / Selected outcomes</p>
+            <h2>Different briefs.<br />One reasoning layer.</h2>
           </div>
-          <p>These examples show five practical jobs: create a finished exterior, complete a public interior, replace one object, match several views, or repair a damaged render.</p>
+          <p>These are not fixed style presets. They are examples of the same system adapting to generation, precise editing, consistency, and repair.</p>
         </div>
 
         <article class="case case-wide reveal" id="case-atmosphere">
@@ -245,19 +285,11 @@
       <section class="skills" id="skills">
         <div class="section-heading reveal">
           <div>
-            <p class="section-number">00 / Skills</p>
-            <h2>Current skills.<br />Visible effects.</h2>
-            <p class="section-summary">Version 0.1 starts with ten architectural visualization workflows. This catalog will continue to grow with new visual skills and future architecture modules.</p>
+            <p class="section-number">05 / The collection</p>
+            <h2>Expertise that<br />can keep growing.</h2>
+            <p class="section-summary">Archiviser is organized as a modular library, not a single giant workflow. New skills and categories can be added without turning the homepage into a catalog.</p>
           </div>
-          <div class="skill-filters" role="group" aria-label="Filter skills">
-            <button class="filter is-active" type="button" data-filter="all">All 10</button>
-            <button class="filter" type="button" data-filter="workflow">Workflow 1</button>
-            <button class="filter" type="button" data-filter="rendering">Rendering 3</button>
-            <button class="filter" type="button" data-filter="style">Style 2</button>
-            <button class="filter" type="button" data-filter="consistency">Consistency 2</button>
-            <button class="filter" type="button" data-filter="editing">Editing 1</button>
-            <button class="filter" type="button" data-filter="quality">Quality 1</button>
-          </div>
+          <p>Explore the dedicated Skills page to browse the full collection by workflow direction, rendering, design language, consistency, editing, and quality.</p>
         </div>
 
         <div class="skill-grid">
@@ -271,53 +303,22 @@
             <div class="skill-card-body"><div class="skill-meta"><span class="skill-id">01</span><span class="skill-category">Rendering</span></div>
             <h3>Competition Exterior</h3><p>Creates authored exterior images with atmosphere and architectural clarity.</p><span class="skill-arrow">↗</span></div>
           </a>
-          <a class="skill-card reveal" data-category="rendering" href="https://github.com/swangarch/archiviser/blob/main/skills/render-public-interior/SKILL.md">
-            <div class="skill-image"><img src="assets/public-library-interior.webp" alt="Public library organized around an inhabited timber reading stair" /></div>
-            <div class="skill-card-body"><div class="skill-meta"><span class="skill-id">02</span><span class="skill-category">Rendering</span></div>
-            <h3>Public Interior</h3><p>Makes civic spaces believable through program, people, and material depth.</p><span class="skill-arrow">↗</span></div>
-          </a>
-          <a class="skill-card reveal" data-category="rendering" href="https://github.com/swangarch/archiviser/blob/main/skills/render-residential-interior/SKILL.md">
-            <div class="skill-image"><img src="assets/residential-interior.webp" alt="Bright split-level residential interior with a library wall and social seating group" /></div>
-            <div class="skill-card-body"><div class="skill-meta"><span class="skill-id">03</span><span class="skill-category">Rendering</span></div>
-            <h3>Residential Interior</h3><p>Builds coherent homes around circulation, furniture grouping, and light.</p><span class="skill-arrow">↗</span></div>
-          </a>
-          <a class="skill-card reveal" data-category="style" href="https://github.com/swangarch/archiviser/blob/main/skills/design-modern-french/SKILL.md">
-            <div class="skill-image"><img src="assets/modern-french-interior.webp" alt="Restrained contemporary French living room in a Paris apartment" /></div>
-            <div class="skill-card-body"><div class="skill-meta"><span class="skill-id">04</span><span class="skill-category">Style</span></div>
-            <h3>Modern French</h3><p>Adds Parisian proportion and refinement without becoming ornate.</p><span class="skill-arrow">↗</span></div>
-          </a>
-          <a class="skill-card reveal" data-category="style" href="https://github.com/swangarch/archiviser/blob/main/skills/design-art-nouveau-deco/SKILL.md">
-            <div class="skill-image"><img src="assets/art-nouveau-deco-interior.webp" alt="Contemporary interior combining botanical Art Nouveau gestures with Art Deco geometry" /></div>
-            <div class="skill-card-body"><div class="skill-meta"><span class="skill-id">05</span><span class="skill-category">Style</span></div>
-            <h3>Nouveau × Deco</h3><p>Balances organic line with disciplined 1920s geometry.</p><span class="skill-arrow">↗</span></div>
-          </a>
           <a class="skill-card reveal" data-category="consistency" href="https://github.com/swangarch/archiviser/blob/main/skills/lock-architecture-shell/SKILL.md">
             <div class="skill-image"><img src="assets/architecture-shell-lock.webp" alt="Before and after interior comparison with identical walls, arch, beam, window, and kitchen footprint" /></div>
             <div class="skill-card-body"><div class="skill-meta"><span class="skill-id">06</span><span class="skill-category">Consistency</span></div>
             <h3>Architecture Lock</h3><p>Changes finishes and furniture while the construction stays fixed.</p><span class="skill-arrow">↗</span></div>
           </a>
-          <a class="skill-card reveal" data-category="consistency" href="https://github.com/swangarch/archiviser/blob/main/skills/match-archviz-multiview/SKILL.md">
-            <div class="skill-image"><img src="assets/art-nouveau-deco-companion-view.webp" alt="Reverse companion camera of the same Art Nouveau and Art Deco living room" /></div>
-            <div class="skill-card-body"><div class="skill-meta"><span class="skill-id">07</span><span class="skill-category">Consistency</span></div>
-            <h3>Multiview Match</h3><p>Keeps the same project consistent across different cameras.</p><span class="skill-arrow">↗</span></div>
-          </a>
-          <a class="skill-card reveal" data-category="editing" href="https://github.com/swangarch/archiviser/blob/main/skills/edit-archviz-objects/SKILL.md">
-            <div class="skill-image"><img src="assets/modern-french-object-edit.webp" alt="Parisian living room after a precise sofa-only replacement" /></div>
-            <div class="skill-card-body"><div class="skill-meta"><span class="skill-id">08</span><span class="skill-category">Editing</span></div>
-            <h3>Object Editor</h3><p>Replaces one named object without disturbing the approved room.</p><span class="skill-arrow">↗</span></div>
-          </a>
-          <a class="skill-card reveal" data-category="quality" href="https://github.com/swangarch/archiviser/blob/main/skills/restore-archviz-quality/SKILL.md">
-            <div class="skill-image"><img src="assets/competition-exterior.webp" alt="Restored high-detail competition exterior with clean materials and geometry" /></div>
-            <div class="skill-card-body"><div class="skill-meta"><span class="skill-id">09</span><span class="skill-category">Quality</span></div>
-            <h3>Quality Restorer</h3><p>Rebuilds damaged materials and detail without redesigning the image.</p><span class="skill-arrow">↗</span></div>
-          </a>
+        </div>
+        <div class="collection-action reveal">
+          <p><strong>10 skills</strong><span>across 6 expandable categories</span></p>
+          <a class="button button-dark" href="skills.html">Open the Skills library →</a>
         </div>
       </section>
 
       <section class="method" id="method">
         <div class="section-heading reveal">
-          <div><p class="section-number">04 / Method</p><h2>How every skill works.</h2></div>
-          <p>Each specialist has a different purpose, but all follow the same four-part control loop: read the evidence, lock invariants, make the authorized change, and compare the result.</p>
+          <div><p class="section-number">06 / Method</p><h2>Reasoning made operational.</h2></div>
+          <p>Each specialist has a different purpose, but all protect the same principle: interpret the brief before generating, then validate the result against the design intent.</p>
         </div>
         <ol class="method-list">
           <li class="reveal"><span>01</span><h3>Read</h3><p>Inspect every input and assign its authority.</p></li>
@@ -329,8 +330,8 @@
 
       <section class="install" id="install">
         <div class="section-heading reveal">
-          <div><p class="section-number">05 / Install</p><h2>Use it in Codex.</h2></div>
-          <p>Add the GitHub repository as a Codex plugin marketplace, then install the skills-only plugin. Start a new thread after installation so Codex discovers the new skills.</p>
+          <div><p class="section-number">07 / Install</p><h2>Bring Archiviser<br />to your agent.</h2></div>
+          <p>The current distribution works as an Agent Skills plugin for Codex. The project itself remains model-agnostic: its core is the reasoning method, not one image model or interface.</p>
         </div>
         <div class="install-panel reveal">
           <div>
@@ -347,9 +348,9 @@ codex plugin add archiviser-skills@archiviser-skills</code></pre>
       </section>
 
       <section class="closing reveal">
-        <p class="section-number">06 / Growing collection</p>
-        <h2>Ten skills are<br />only the beginning.</h2>
-        <p>Archiviser Skills is an active open-source project. The current visualization module will expand, followed by new skills for other parts of architectural work.</p>
+        <p class="section-number">08 / An open system</p>
+        <h2>One project.<br />Many ways to think.</h2>
+        <p>Archiviser begins with architectural visualization, then grows through new skills for analysis, drawing, modeling, documentation, and presentation.</p>
         <div class="closing-actions">
           <button class="button button-light copy-action" type="button" data-copy-label="Starter prompt copied" data-copy="Use $archviz-director to inspect my references, protect the correct geometry, and route the project to the right visualization workflow.">Copy starter prompt</button>
           <a class="button button-outline-light" href="https://github.com/swangarch/archiviser#readme">Read the documentation</a>
@@ -358,8 +359,8 @@ codex plugin add archiviser-skills@archiviser-skills</code></pre>
     </main>
 
     <footer class="site-footer">
-      <div><span class="brand-mark">A/S</span><span>Archiviser Skills</span></div>
-      <p>Open Agent Skills for architectural visual work.</p>
+      <div><span class="brand-mark">A/S</span><span>Archiviser</span></div>
+      <p><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="support.html">Support</a></p>
       <p>v0.1 · Growing · <span id="year">2026</span></p>
     </footer>
 

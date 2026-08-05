@@ -14,7 +14,7 @@ The current release begins with ten **architectural visualization** skills. It i
 
 [Open the Archiviser Skills website](https://swangarch.github.io/archiviser/) or view the [local source](site/index.html).
 
-The website starts with an image-first skill gallery. Every skill in the current release has a dedicated example image and a one-line summary. It also shows how a designer uses a skill in Codex and includes practical examples for rendering, object editing, view consistency, and quality restoration.
+The website introduces Archiviser as an intent-driven architectural reasoning project, explains why it uses skills and agents instead of fixed prompt templates, and shows selected visual outcomes. The complete collection now lives on a dedicated Skills page with category navigation, making the library easier to browse and extend.
 
 ## A simple example
 
@@ -75,7 +75,7 @@ A text-only model can still inspect the workflow, prepare a visual brief, write 
 
 ## Status
 
-This repository is an early `0.1.0` release. It currently targets multimodal agents and models that can:
+This repository is an early `0.1.1` release. It currently targets multimodal agents and models that can:
 
 - inspect architectural images, sketches, screenshots, or renders;
 - generate new images or edit supplied images;

@@ -1,10 +1,3 @@
-const skillShowcase = document.querySelector(".skills");
-const manifesto = document.querySelector(".manifesto");
-
-if (skillShowcase && manifesto) {
-  manifesto.parentNode.insertBefore(skillShowcase, manifesto);
-}
-
 const comparisons = document.querySelectorAll("[data-compare]");
 
 comparisons.forEach((comparison) => {
@@ -63,4 +56,5 @@ if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-mot
   reveals.forEach((element) => element.classList.add("is-visible"));
 }
 
-document.querySelector("#year").textContent = new Date().getFullYear();
+const year = document.querySelector("#year");
+if (year) year.textContent = new Date().getFullYear();
