@@ -1,0 +1,8 @@
+interface:
+  display_name: "Refine Concrete Residential Interiors"
+  short_description: "Refine concrete homes with warmth and spatial logic"
+  default_prompt: "Use $refine-concrete-residential-interiors to refine this concrete residential interior while preserving its architecture."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  allow_implicit_invocation: true

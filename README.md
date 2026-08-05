@@ -6,7 +6,7 @@ Archiviser Skills is a growing open-source collection of ready-made AI workflows
 
 Give Codex a sketch, screenshot, CG view, or render; choose the skill that matches your task; then describe the result in normal design language. The skill tells the AI what it may change, what must remain fixed, and what to check before returning the image.
 
-The current release begins with ten **architectural visualization** skills. It is not limited to these ten: the collection is actively expanding toward more visualization workflows and future modules for analysis, drawing, modeling, documentation, and presentation.
+The current release includes eleven **architectural visualization** skills. It is not limited to these eleven: the collection is actively expanding toward more visualization workflows and future modules for analysis, drawing, modeling, documentation, and presentation.
 
 ![Archiviser Skills cover](assets/cover.png)
 
@@ -75,7 +75,7 @@ A text-only model can still inspect the workflow, prepare a visual brief, write 
 
 ## Status
 
-This repository is an early `0.1.1` release. It currently targets multimodal agents and models that can:
+This repository is an early `0.1.2` release. It currently targets multimodal agents and models that can:
 
 - inspect architectural images, sketches, screenshots, or renders;
 - generate new images or edit supplied images;
@@ -101,6 +101,7 @@ The visualization module is organized as a coordinated studio rather than a flat
 | [`render-competition-exterior`](skills/render-competition-exterior/) | Produce editorial competition exteriors from massing, sketches, collages, or basic CG. |
 | [`render-public-interior`](skills/render-public-interior/) | Render civic, cultural, educational, and other public interiors with believable activity and material depth. |
 | [`render-residential-interior`](skills/render-residential-interior/) | Design and render coherent, bright, editorial residential interiors. |
+| [`refine-concrete-residential-interiors`](skills/refine-concrete-residential-interiors/) | Refine exposed-concrete homes with credible construction, domestic warmth, spatial logic, and material fidelity. |
 
 ### Style
 
