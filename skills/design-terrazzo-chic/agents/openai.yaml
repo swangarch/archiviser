@@ -1,0 +1,8 @@
+interface:
+  display_name: "Design Terrazzo Chic"
+  short_description: "Design subtle terrazzo interiors with refined metal detail"
+  default_prompt: "Use $design-terrazzo-chic to develop this interior as a subtle, elegant terrazzo-led space."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  allow_implicit_invocation: true

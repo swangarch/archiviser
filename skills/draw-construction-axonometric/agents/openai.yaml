@@ -1,0 +1,8 @@
+interface:
+  display_name: "Draw Construction Axonometrics"
+  short_description: "Create black-and-white exploded construction axonometrics"
+  default_prompt: "Use $draw-construction-axonometric to explain this project as a precise black-and-white construction axonometric."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  allow_implicit_invocation: true

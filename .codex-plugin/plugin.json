@@ -1,6 +1,6 @@
 {
   "name": "archiviser-skills",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "An expanding collection of reusable Agent Skills for architectural visualization, design, and drawing.",
   "author": {
     "name": "Shuai WANG",
@@ -14,7 +14,7 @@
   "interface": {
     "displayName": "Archiviser Skills",
     "shortDescription": "Reusable workflows for architectural images and drawings.",
-    "longDescription": "A growing open-source collection of skills for directing architectural visualization, rendering exteriors and interiors, developing design languages, producing precise black-and-white schematic drawings, protecting fixed geometry, matching views, editing objects, and restoring image quality.",
+    "longDescription": "A growing open-source collection of skills for directing architectural visualization, rendering exteriors and interiors, developing material and tectonic design languages, producing schematic, section-perspective, and construction-axonometric drawings, protecting fixed geometry, matching views, editing objects, and restoring image quality.",
     "developerName": "Shuai WANG",
     "category": "Creative",
     "capabilities": [
@@ -37,6 +37,8 @@
     "defaultPrompt": [
       "Use $archviz-director to inspect my references and choose the right workflow.",
       "Convert this architectural image into a precise black-and-white schematic drawing.",
+      "Turn this project into a material section-perspective or exploded construction axonometric.",
+      "Develop this interior through modern timber tectonics or subtle terrazzo chic.",
       "Keep the architecture fixed and improve this visualization.",
       "Match these views as one consistent architectural project."
     ]

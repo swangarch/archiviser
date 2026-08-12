@@ -13,7 +13,7 @@ Skills only.
 - **Developer:** Shuai Wang
 - **Category:** Creative
 - **Short description:** Architectural reasoning skills for intent-driven AI visualization.
-- **Long description:** Archiviser helps AI agents understand architectural design intent before generating, editing, or translating architectural images into drawings. Its skills inspect references, identify authoritative geometry, separate what may change from what must stay fixed, construct a task-specific visual brief, and verify the result. The collection covers visualization direction, exterior and interior rendering, residential design languages, black-and-white schematic drawing, geometry preservation, multiview consistency, precise object editing, and quality restoration.
+- **Long description:** Archiviser helps AI agents understand architectural design intent before generating, editing, or translating architectural images into drawings. Its skills inspect references, identify authoritative geometry, separate what may change from what must stay fixed, construct a task-specific visual brief, and verify the result. The collection covers visualization direction, exterior and interior rendering, material and tectonic design languages, schematic and construction drawing, geometry preservation, multiview consistency, precise object editing, and quality restoration.
 - **Website:** https://swangarch.github.io/archiviser/
 - **Support:** https://swangarch.github.io/archiviser/support.html
 - **Privacy:** https://swangarch.github.io/archiviser/privacy.html
@@ -64,6 +64,18 @@ Skills only.
 - **Expected skill/workflow:** `draw-architectural-schematics` establishes a line-weight hierarchy, preserves the camera and geometry, and excludes color, shading, reflections, and painterly marks.
 - **Expected result:** A precise monochrome perspective drawing with readable structural turns, restrained wall texture, perspective-correct floor paving, and subordinate entourage.
 
+### 7. Explain construction as a section-perspective
+
+- **Prompt:** “Keep this eye-level interior recognizable, cut through the floor, wall, and skylight, and show the build-ups with two linked node enlargements.”
+- **Expected skill/workflow:** `draw-section-perspectives` defines a coherent cut plane, separates cut from visible construction, and preserves human-eye perspective.
+- **Expected result:** A black-and-white material section-perspective with plausible layers, stronger cut edges, lighter inhabited space, and matching enlarged nodes.
+
+### 8. Develop a material-led interior
+
+- **Prompt:** “Keep the architecture fixed and turn this cultural interior into a bright terrazzo café-bar with refined ribbed metal, coherent furniture, and unobstructed circulation.”
+- **Expected skill/workflow:** `design-terrazzo-chic` with `lock-architecture-shell`.
+- **Expected result:** A complete, restrained design system covering terrazzo recipe, ondulé metal, bar operation, furniture, lighting, detail, and circulation rather than a surface-only material swap.
+
 ## Negative test cases
 
 ### 1. Missing source image for a requested edit
@@ -86,7 +98,7 @@ Skills only.
 
 ## Initial release notes
 
-Version 0.1.3 of Archiviser is a skills-only architectural reasoning plugin with twelve skills across workflow direction, rendering, design language, schematic drawing, consistency, precise editing, and image restoration. This release adds controlled black-and-white technical drawing and broadens concrete residential design beyond double-height houses to real project typologies of any scale. The plugin has no MCP server, authentication, user accounts, telemetry, or independently operated data storage.
+Version 0.1.4 of Archiviser is a skills-only architectural reasoning plugin with sixteen skills across workflow direction, rendering, design language, architectural drawing, consistency, precise editing, and image restoration. This release adds human-eye material section-perspectives, exploded construction axonometrics, modern timber tectonic design, and subtle terrazzo-led interior design with café and bar workflows. The plugin has no MCP server, authentication, user accounts, telemetry, or independently operated data storage.
 
 ## Human and portal gates
 

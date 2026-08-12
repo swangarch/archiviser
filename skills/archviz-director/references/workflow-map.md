@@ -6,6 +6,8 @@
 | Library, museum, pavilion, stair hall, civic interior | render-public-interior |
 | Apartment or house redesign and photoreal render | render-residential-interior |
 | Concrete home design or refinement at any residential scale | refine-concrete-residential-interiors |
+| Subtle terrazzo-led interior, café, bar, stair, or lounge | design-terrazzo-chic |
+| Contemporary timber structure, joinery, or wood-floor system | design-modern-timber-tectonics |
 | Contemporary French or Parisian residential style | design-modern-french |
 | Art Nouveau and Art Deco fusion | design-art-nouveau-deco |
 | One sofa, lamp, wall, color, or material change | edit-archviz-objects |
@@ -13,6 +15,8 @@
 | Reverse view, paired view, triptych, or day/night set | match-archviz-multiview |
 | Approved design but degraded image quality | restore-archviz-quality |
 | Black-and-white technical perspective, line drawing, or material-aware schematic | draw-architectural-schematics |
+| Human-eye cutaway with visible material and construction build-ups | draw-section-perspectives |
+| Parallel-projection construction axonometric or exploded assembly | draw-construction-axonometric |
 
 ## Priority rules
 

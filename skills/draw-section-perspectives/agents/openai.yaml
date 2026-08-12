@@ -1,0 +1,8 @@
+interface:
+  display_name: "Draw Section Perspectives"
+  short_description: "Create human-eye cutaway views with readable construction"
+  default_prompt: "Use $draw-section-perspectives to turn this architectural view into a precise human-eye material section-perspective."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  allow_implicit_invocation: true

@@ -6,7 +6,7 @@ Archiviser Skills is a growing open-source collection of ready-made AI workflows
 
 Give Codex a sketch, screenshot, CG view, or render; choose the skill that matches your task; then describe the result in normal design language. The skill tells the AI what it may change, what must remain fixed, and what to check before returning the image.
 
-The current release includes twelve **architectural visualization, design, and drawing** skills. The collection remains open and is actively expanding toward future modules for analysis, modeling, documentation, and presentation.
+The current release includes sixteen **architectural visualization, design, and drawing** skills. The collection remains open and is actively expanding toward future modules for analysis, modeling, documentation, and presentation.
 
 ![Archiviser Skills cover](assets/cover.png)
 
@@ -75,7 +75,7 @@ A text-only model can still inspect the workflow, prepare a visual brief, write 
 
 ## Status
 
-This repository is an early `0.1.3` release. It currently targets multimodal agents and models that can:
+This repository is an early `0.1.4` release. It currently targets multimodal agents and models that can:
 
 - inspect architectural images, sketches, screenshots, or renders;
 - generate new images or edit supplied images;
@@ -109,12 +109,16 @@ The visualization module is organized as a coordinated studio rather than a flat
 | [`design-modern-french`](skills/design-modern-french/) | Create restrained contemporary French interiors with refined proportions and natural materials. |
 | [`design-art-nouveau-deco`](skills/design-art-nouveau-deco/) | Balance Art Nouveau organic line with disciplined Art Deco geometry. |
 | [`refine-concrete-residential-interiors`](skills/refine-concrete-residential-interiors/) | Design exposed-concrete homes for their actual typology and scale, from compact apartments to multi-level houses. |
+| [`design-modern-timber-tectonics`](skills/design-modern-timber-tectonics/) | Design contemporary timber architecture through structural hierarchy, assembly, joinery, and material contrast. |
+| [`design-terrazzo-chic`](skills/design-terrazzo-chic/) | Build subtle terrazzo-led interiors with refined ondulé metal, furniture, and credible café or bar detail. |
 
 ### Drawing
 
 | Skill | Purpose |
 | --- | --- |
 | [`draw-architectural-schematics`](skills/draw-architectural-schematics/) | Convert architectural images into precise black-and-white schematic drawings with controlled line hierarchy and material notation. |
+| [`draw-section-perspectives`](skills/draw-section-perspectives/) | Create human-eye section-perspectives with readable cut construction, material build-ups, and linked nodes. |
+| [`draw-construction-axonometric`](skills/draw-construction-axonometric/) | Reconstruct projects as controlled black-and-white construction axonometrics and exploded assemblies. |
 
 ### Architectural consistency
 
