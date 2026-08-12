@@ -13,7 +13,7 @@ Skills only.
 - **Developer:** Shuai Wang
 - **Category:** Creative
 - **Short description:** Architectural reasoning skills for intent-driven AI visualization.
-- **Long description:** Archiviser helps AI agents understand architectural design intent before generating or editing images. Its skills inspect references, identify authoritative geometry, separate what may change from what must stay fixed, construct a task-specific visual brief, and verify the result. The initial module covers visualization direction, exterior and interior rendering, design languages, geometry preservation, multiview consistency, precise object editing, and quality restoration.
+- **Long description:** Archiviser helps AI agents understand architectural design intent before generating, editing, or translating architectural images into drawings. Its skills inspect references, identify authoritative geometry, separate what may change from what must stay fixed, construct a task-specific visual brief, and verify the result. The collection covers visualization direction, exterior and interior rendering, residential design languages, black-and-white schematic drawing, geometry preservation, multiview consistency, precise object editing, and quality restoration.
 - **Website:** https://swangarch.github.io/archiviser/
 - **Support:** https://swangarch.github.io/archiviser/support.html
 - **Privacy:** https://swangarch.github.io/archiviser/privacy.html
@@ -58,6 +58,12 @@ Skills only.
 - **Expected skill/workflow:** `restore-archviz-quality`.
 - **Expected result:** A restoration-only brief that separates defects from design decisions and validates the repaired image against the source.
 
+### 6. Convert an image into a schematic drawing
+
+- **Prompt:** “Keep the perspective and architecture exact. Convert this interior into a clean black-and-white technical drawing with clear material notation, stronger floor joints than wall texture, and lighter furniture outlines.”
+- **Expected skill/workflow:** `draw-architectural-schematics` establishes a line-weight hierarchy, preserves the camera and geometry, and excludes color, shading, reflections, and painterly marks.
+- **Expected result:** A precise monochrome perspective drawing with readable structural turns, restrained wall texture, perspective-correct floor paving, and subordinate entourage.
+
 ## Negative test cases
 
 ### 1. Missing source image for a requested edit
@@ -80,7 +86,7 @@ Skills only.
 
 ## Initial release notes
 
-Initial public submission of Archiviser, a skills-only architectural reasoning plugin. Version 0.1 includes ten skills across workflow direction, rendering, design language, consistency, precise editing, and image restoration. The plugin has no MCP server, authentication, user accounts, telemetry, or independently operated data storage.
+Version 0.1.3 of Archiviser is a skills-only architectural reasoning plugin with twelve skills across workflow direction, rendering, design language, schematic drawing, consistency, precise editing, and image restoration. This release adds controlled black-and-white technical drawing and broadens concrete residential design beyond double-height houses to real project typologies of any scale. The plugin has no MCP server, authentication, user accounts, telemetry, or independently operated data storage.
 
 ## Human and portal gates
 

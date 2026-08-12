@@ -1,2 +1,8 @@
 # Local handoff notes for future Codex sessions
 progress.md
+
+# Local generated image previews
+output/
+
+# macOS metadata
+.DS_Store

@@ -1,11 +1,11 @@
 ---
 name: refine-concrete-residential-interiors
-description: Refine, redesign, or re-render contemporary exposed-concrete residential interiors while preserving architectural intent and improving warmth, constructability, spatial logic, furniture function, material contrast, indoor-outdoor relationships, and photorealistic quality. Use for double-height homes, courtyard houses, minimalist concrete living rooms, mezzanines, glass façades, pools, garden-facing rooms, structural-detail corrections, or iterative archviz feedback involving concrete that feels unfinished, cold, dirty, artificial, cartoon-like, or spatially incoherent.
+description: Design, refine, or re-render contemporary exposed-concrete residential interiors of any scale or typology while preserving architectural intent and improving warmth, constructability, spatial logic, furniture function, material contrast, indoor-outdoor relationships, and photorealistic quality. Use for apartments, compact rooms, single-storey homes, courtyard houses, townhouses, villas, multi-level homes, renovations, glass façades, terraces, pools, structural-detail corrections, or concrete that feels unfinished, cold, dirty, artificial, cartoon-like, or spatially incoherent.
 ---
 
-# Refine Concrete Residential Interiors
+# Design Concrete Residential Interiors
 
-Develop convincing minimalist homes in which exposed concrete reads as finished architecture rather than an unfinished shell. Preserve the project's spatial idea, then improve function, construction logic, domestic warmth, material contrast, and image fidelity.
+Develop convincing homes of any size in which exposed concrete reads as finished architecture rather than an unfinished shell. Read the actual typology first, then improve function, construction logic, domestic warmth, material contrast, and image fidelity without forcing the project into a villa, courtyard, or double-height template.
 
 ## Core workflow
 
@@ -32,6 +32,19 @@ Do not preserve an obvious generation error merely because it appears in the lat
 
 When editing, repeat the fixed elements in the prompt. State both what may change and what must not change.
 
+## Choose the residential typology before designing
+
+Do not assume a double-height room, mezzanine, courtyard, pool, or detached house. Classify the visible project from evidence:
+
+- compact apartment or studio;
+- conventional single-level living space;
+- single-storey courtyard or garden house;
+- townhouse or vertically organized home;
+- multi-level or double-height residence;
+- renovation inside an existing concrete shell.
+
+Scale furniture, lighting, material contrast, storage, circulation, and planting to that typology. Use the source geometry rather than adding dramatic volume. A modest room may need one precise seating group and integrated storage; a large room may support broader circulation and larger fixtures. Treat missing features as absent, not as invitations to invent them.
+
 ## Read spatial intention before decorating
 
 Infer function from geometry:
@@ -39,9 +52,9 @@ Infer function from geometry:
 - Treat a deep low niche near a stair or window as a likely sitting place; make it comfortable with timber lining or fitted upholstery rather than leaving bare concrete.
 - Make seating face its functional destination. A television-facing sofa must be demonstrably aligned with the screen, not merely nearby.
 - Preserve clear circulation around seating groups, sliding doors, stairs, and courtyard thresholds.
-- Give upper lounges visible depth through floor recession, furniture at several distances, and a genuinely distant rear wall.
-- Use normal-height guards at mezzanine edges; do not turn a railing into a full-height glass enclosure unless the architecture requires one.
-- Read opposite courtyard rooms as part of the house. Connect them through slabs, walls, datum lines, and façade grids rather than presenting detached scenic pavilions.
+- When an upper lounge exists, give it visible depth through floor recession, furniture at several distances, and a genuinely distant rear wall.
+- When a mezzanine exists, use normal-height guards at its edge; do not turn a railing into a full-height glass enclosure unless the architecture requires one.
+- When a courtyard has opposite rooms, connect them through slabs, walls, datum lines, and façade grids rather than presenting detached scenic pavilions.
 
 Resolve function before changing style.
 
@@ -94,7 +107,7 @@ Do not use structure merely as a visual motif; explain how it meets adjacent flo
 
 ## Design domestic warmth without clutter
 
-Use furniture with a clear functional arrangement and proportions appropriate to the room volume. In large double-height rooms, avoid underscaled lamps and scattered small objects. Use a few substantial, refined pieces.
+Use furniture with a clear functional arrangement and proportions appropriate to the actual room volume. Avoid underscaled pieces in large spaces and oversized statement furniture in compact rooms. Use a few refined pieces with appropriate clearance.
 
 Combine rectilinear architecture with controlled softness:
 
@@ -107,9 +120,9 @@ Combine rectilinear architecture with controlled softness:
 
 Keep negative space. Avoid generic blob furniture, showroom symmetry, excessive accessories, or furniture that blocks circulation and sightlines.
 
-## Build a believable indoor-outdoor sequence
+## Build a believable indoor-outdoor sequence when present
 
-Organize thresholds in a usable order:
+When the project opens to a terrace, courtyard, balcony, or garden, organize thresholds in a usable order:
 
 1. operable glazing;
 2. a dry terrace deep enough to step out, circulate, and sit;
@@ -123,7 +136,7 @@ Use layered planting to filter views between glazed rooms. Preserve daylight and
 
 ## Refine lighting and transparent objects
 
-Scale fixtures to the volume. Use one coherent geometric family rather than unrelated shapes.
+Scale fixtures to the actual room volume and ceiling height. Use one coherent geometric family rather than unrelated shapes.
 
 For glass pendants:
 
@@ -133,7 +146,7 @@ For glass pendants:
 - prevent plastic transparency, excessive bloom, or distorted envelopes;
 - keep suspension, ceiling fittings, and light source construction minimal and believable.
 
-Use recessed downlights sparingly and align them with circulation or architectural axes. Use sheer curtains on recessed ceiling tracks to soften large glazed façades while preserving operability and views.
+Use recessed downlights sparingly and align them with circulation or architectural axes. When large glazed façades exist, use sheer curtains on recessed ceiling tracks to preserve operability, privacy, and views.
 
 ## Preserve photographic realism
 

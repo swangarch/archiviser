@@ -1,0 +1,8 @@
+interface:
+  display_name: "Draw Architectural Schematics"
+  short_description: "Create precise black-and-white architectural line drawings"
+  default_prompt: "Use $draw-architectural-schematics to convert this architectural image into a precise black-and-white schematic drawing."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  allow_implicit_invocation: true

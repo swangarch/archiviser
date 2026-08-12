@@ -5,12 +5,14 @@
 | Exterior massing, competition atmosphere, day or night | render-competition-exterior |
 | Library, museum, pavilion, stair hall, civic interior | render-public-interior |
 | Apartment or house redesign and photoreal render | render-residential-interior |
+| Concrete home design or refinement at any residential scale | refine-concrete-residential-interiors |
 | Contemporary French or Parisian residential style | design-modern-french |
 | Art Nouveau and Art Deco fusion | design-art-nouveau-deco |
 | One sofa, lamp, wall, color, or material change | edit-archviz-objects |
 | Walls, openings, beams, ceiling levels, or camera fixed | lock-architecture-shell |
 | Reverse view, paired view, triptych, or day/night set | match-archviz-multiview |
 | Approved design but degraded image quality | restore-archviz-quality |
+| Black-and-white technical perspective, line drawing, or material-aware schematic | draw-architectural-schematics |
 
 ## Priority rules
 
