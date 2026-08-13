@@ -1,5 +1,5 @@
 interface:
-  display_name: "Design Modern Brick + Timber Arches"
+  display_name: "Design Modern Brick Arches + Timber"
   short_description: "Design contemporary brick arches with timber warmth"
   default_prompt: "Use $design-modern-brick-timber-arches to develop this project through credible brick arches, timber structure, and calm civic space."
   icon_small: "./assets/icon.svg"

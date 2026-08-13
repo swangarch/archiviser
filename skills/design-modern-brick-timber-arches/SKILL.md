@@ -3,7 +3,7 @@ name: design-modern-brick-timber-arches
 description: Design, redesign, or render contemporary brick-and-timber architecture through credible arches, masonry thickness, structural rhythm, timber secondary structure, integrated furniture, neutral daylight, and clear public-space organization. Use for libraries, cultural halls, passages, markets, schools, courtyards, hospitality spaces, or feedback that brick arches feel asymmetric, decorative, nostalgic, fake, heavy, dark, or disconnected from timber and use.
 ---
 
-# Design Modern Brick + Timber Arches
+# Design Modern Brick Arches + Timber
 
 Build contemporary civic space from a legible masonry order softened by timber structure, lining, furniture, and touch surfaces. Treat every arch as construction with load, thickness, bearing, and rhythm rather than as a pasted historical motif.
 
