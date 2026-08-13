@@ -1,0 +1,8 @@
+interface:
+  display_name: "Draw Editorial Section Collages"
+  short_description: "Create precise architectural cut-paper section collages"
+  default_prompt: "Use $draw-editorial-section-collages to turn this project into a precise editorial section collage."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  allow_implicit_invocation: true

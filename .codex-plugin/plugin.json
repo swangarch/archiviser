@@ -1,6 +1,6 @@
 {
   "name": "archiviser-skills",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "An expanding collection of reusable Agent Skills for architectural visualization, design, and drawing.",
   "author": {
     "name": "Shuai WANG",
@@ -14,7 +14,7 @@
   "interface": {
     "displayName": "Archiviser Skills",
     "shortDescription": "Reusable workflows for architectural images and drawings.",
-    "longDescription": "A growing open-source collection of skills for directing architectural visualization, rendering exteriors and interiors, developing material, mineral, craft, and tectonic design languages, producing schematic, section-perspective, and construction-axonometric drawings, protecting fixed geometry, matching views, editing objects, and restoring image quality.",
+    "longDescription": "A growing open-source collection of skills for directing architectural visualization, rendering exteriors and interiors, developing material, mineral, masonry, craft, and tectonic design languages, producing schematic, material-line, collage, section-perspective, and construction-axonometric drawings, protecting fixed geometry, matching views, editing objects, and restoring image quality.",
     "developerName": "Shuai WANG",
     "category": "Creative",
     "capabilities": [
@@ -38,6 +38,8 @@
       "Use $archviz-director to inspect my references and choose the right workflow.",
       "Convert this architectural image into a precise black-and-white schematic drawing.",
       "Turn this project into a material section-perspective or exploded construction axonometric.",
+      "Develop a contemporary brick-and-timber arched civic space with credible structure.",
+      "Translate this section into a pale material-line schematic or an editorial architectural collage.",
       "Develop this project through modern timber craft, Nordic mineral modernism, or subtle terrazzo chic.",
       "Keep the architecture fixed and improve this visualization.",
       "Match these views as one consistent architectural project."

@@ -104,7 +104,7 @@ Skills only.
 
 ## Initial release notes
 
-Version 0.1.5 of Archiviser is a skills-only architectural reasoning plugin with seventeen skills across workflow direction, rendering, design language, architectural drawing, consistency, precise editing, and image restoration. This release adds Nordic mineral modernism for climate-aware granite, slate, brick, and coastal-light design, and expands modern timber tectonics to coordinate credible structural weight with contemporary craft, integrated furniture, and public use. The plugin has no MCP server, authentication, user accounts, telemetry, or independently operated data storage.
+Version 0.1.6 of Archiviser is a skills-only architectural reasoning plugin with twenty skills across workflow direction, rendering, design language, architectural drawing, consistency, precise editing, and image restoration. This release adds contemporary brick-and-timber arches with explicit masonry geometry and load-path checks, pale material-line schematics for restrained surface notation, and editorial section collages that protect geometry while using clipped paper, photography, halftone, and cut-out entourage. The plugin has no MCP server, authentication, user accounts, telemetry, or independently operated data storage.
 
 ## Human and portal gates
 

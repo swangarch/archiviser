@@ -9,6 +9,7 @@
 | Subtle terrazzo-led interior, café, bar, stair, or lounge | design-terrazzo-chic |
 | Contemporary timber structure, joinery, or wood-floor system | design-modern-timber-tectonics |
 | Nordic mineral interior, coastal civic room, granite, slate, pale brick, or low northern light | design-nordic-mineral-modernism |
+| Contemporary red-brick arch, masonry vault rhythm, brick-and-timber civic hall, or asymmetric decorative arch correction | design-modern-brick-timber-arches |
 | Contemporary French or Parisian residential style | design-modern-french |
 | Art Nouveau and Art Deco fusion | design-art-nouveau-deco |
 | One sofa, lamp, wall, color, or material change | edit-archviz-objects |
@@ -16,6 +17,8 @@
 | Reverse view, paired view, triptych, or day/night set | match-archviz-multiview |
 | Approved design but degraded image quality | restore-archviz-quality |
 | Black-and-white technical perspective, line drawing, or material-aware schematic | draw-architectural-schematics |
+| Schematic section, elevation, or cutaway requiring extremely pale floor, wall, ceiling, roof, and glazing material lines | draw-material-line-schematics |
+| Editorial section or cutaway collage using clipped material fragments, cut-out people and planting, paper edges, or halftone | draw-editorial-section-collages |
 | Human-eye cutaway with visible material and construction build-ups | draw-section-perspectives |
 | Parallel-projection construction axonometric or exploded assembly | draw-construction-axonometric |
 

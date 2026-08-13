@@ -1,0 +1,8 @@
+interface:
+  display_name: "Draw Material-Line Schematics"
+  short_description: "Draw precise sections with pale material notation"
+  default_prompt: "Use $draw-material-line-schematics to translate this project into a precise schematic drawing with subtle material lines."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  allow_implicit_invocation: true

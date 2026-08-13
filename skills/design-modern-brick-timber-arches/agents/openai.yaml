@@ -1,0 +1,8 @@
+interface:
+  display_name: "Design Modern Brick + Timber Arches"
+  short_description: "Design contemporary brick arches with timber warmth"
+  default_prompt: "Use $design-modern-brick-timber-arches to develop this project through credible brick arches, timber structure, and calm civic space."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  allow_implicit_invocation: true

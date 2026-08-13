@@ -6,7 +6,7 @@ Archiviser Skills is a growing open-source collection of ready-made AI workflows
 
 Give Codex a sketch, screenshot, CG view, or render; choose the skill that matches your task; then describe the result in normal design language. The skill tells the AI what it may change, what must remain fixed, and what to check before returning the image.
 
-The current release includes seventeen **architectural visualization, design, and drawing** skills. The collection remains open and is actively expanding toward future modules for analysis, modeling, documentation, and presentation.
+The current release includes twenty **architectural visualization, design, and drawing** skills. The collection remains open and is actively expanding toward future modules for analysis, modeling, documentation, and presentation.
 
 ![Archiviser Skills cover](assets/cover.png)
 
@@ -75,7 +75,7 @@ A text-only model can still inspect the workflow, prepare a visual brief, write 
 
 ## Status
 
-This repository is an early `0.1.5` release. It currently targets multimodal agents and models that can:
+This repository is an early `0.1.6` release. It currently targets multimodal agents and models that can:
 
 - inspect architectural images, sketches, screenshots, or renders;
 - generate new images or edit supplied images;
@@ -112,6 +112,7 @@ The visualization module is organized as a coordinated studio rather than a flat
 | [`design-modern-timber-tectonics`](skills/design-modern-timber-tectonics/) | Design contemporary timber architecture through credible structure, integrated craft, furniture, and material hierarchy. |
 | [`design-terrazzo-chic`](skills/design-terrazzo-chic/) | Build subtle terrazzo-led interiors with refined ondulé metal, furniture, and credible café or bar detail. |
 | [`design-nordic-mineral-modernism`](skills/design-nordic-mineral-modernism/) | Design calm northern architecture through mineral mass, deep openings, coastal light, and restrained material contrast. |
+| [`design-modern-brick-timber-arches`](skills/design-modern-brick-timber-arches/) | Design contemporary civic architecture through credible masonry arches, timber secondary structure, and clear spatial rhythm. |
 
 ### Drawing
 
@@ -120,6 +121,8 @@ The visualization module is organized as a coordinated studio rather than a flat
 | [`draw-architectural-schematics`](skills/draw-architectural-schematics/) | Convert architectural images into precise black-and-white schematic drawings with controlled line hierarchy and material notation. |
 | [`draw-section-perspectives`](skills/draw-section-perspectives/) | Create human-eye section-perspectives with readable cut construction, material build-ups, and linked nodes. |
 | [`draw-construction-axonometric`](skills/draw-construction-axonometric/) | Reconstruct projects as controlled black-and-white construction axonometrics and exploded assemblies. |
+| [`draw-material-line-schematics`](skills/draw-material-line-schematics/) | Create clean schematic drawings whose palest lines identify floors, walls, ceilings, roofs, glazing, and joinery. |
+| [`draw-editorial-section-collages`](skills/draw-editorial-section-collages/) | Build precise section collages from locked geometry, cut poche, clipped materials, paper edges, people, planting, and print texture. |
 
 ### Architectural consistency
 
