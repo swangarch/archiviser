@@ -1,0 +1,8 @@
+interface:
+  display_name: "Architectural Board Layout"
+  short_description: "Compose project assets into coordinated presentation boards"
+  default_prompt: "Use $layout-architectural-boards to arrange my existing drawings, diagrams, renders, and concept text into a coordinated multi-board presentation."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  allow_implicit_invocation: true

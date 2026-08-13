@@ -1,7 +1,7 @@
 interface:
-  display_name: "Draw Editorial Section Collages"
-  short_description: "Create precise architectural cut-paper section collages"
-  default_prompt: "Use $draw-editorial-section-collages to turn this project into a precise editorial section collage."
+  display_name: "Editorial Orthographic Collages"
+  short_description: "Create standalone plans, elevations and sections as collages"
+  default_prompt: "Use $draw-editorial-section-collages to create this standalone plan, elevation, or section as a precise editorial collage."
   icon_small: "./assets/icon.svg"
   icon_large: "./assets/icon.svg"
 policy:

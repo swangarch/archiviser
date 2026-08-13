@@ -1,11 +1,19 @@
 ---
 name: draw-editorial-section-collages
-description: Transform architectural sections, elevations, cutaways, renders, screenshots, plans, or model views into precise editorial collages using locked geometry, CAD linework, cut poche, clipped material fragments, cut-out people and planting, paper edges, halftone, and restrained color. Use for competition boards, cultural and public projects, inhabited sections, or feedback that a section looks like a soft render, seamless visualization, generic diagram, mood board, scrapbook, or collage that obscures architecture.
+description: Transform architectural site plans, floor plans, roof plans, elevations, sections, cutaways, renders, or model views into precise standalone or coordinated editorial-collage drawings using locked geometry, CAD linework, cut poche, clipped material fragments, cut-out people and planting, paper edges, halftone, and restrained color. Use for individual orthographic drawings, coordinated plan-elevation-section sets, competition drawings, cultural and public projects, or feedback that a drawing looks like a soft render, generic diagram, scrapbook, or collage that obscures architecture.
 ---
 
 # Draw Editorial Section Collages
 
 Create an architectural drawing first and a collage second. Preserve exact spatial evidence while using cut paper, photography, print grain, halftone, and controlled color to make program, material, and inhabitation vivid.
+
+## Choose the deliverable mode
+
+- **Standalone:** Create one named site plan, level plan, roof plan, elevation, section, or cutaway as a full-resolution collage drawing.
+- **Coordinated set:** Create each requested view as a separate file. Reuse one geometry ledger, material-fragment library, palette, entourage family, poche convention, and print treatment.
+- **Summary sheet:** Place completed standalone drawings together only when explicitly requested; keep every source drawing.
+
+Do not generate a miniature set on one page when independent files are required. Compose with `generate-consistent-architectural-sets` whenever several projections must describe the same building.
 
 ## Core workflow
 
@@ -15,8 +23,9 @@ Create an architectural drawing first and a collage second. Preserve exact spati
 4. Establish flat cut poche and visible-edge hierarchy.
 5. Assign a small material and print palette to named architectural planes.
 6. Clip every paper or photographic fragment to its surface; add people and planting as separate cut layers.
-7. Use overlap, scale, white edges, and print registration to create depth without simulated 3D lighting.
-8. Validate geometry at thumbnail and full size before delivery.
+7. Generate one full-resolution file per requested view unless a summary sheet is explicit.
+8. Use overlap, scale, white edges, and print registration to create depth without simulated 3D lighting.
+9. Validate geometry at thumbnail and full size before delivery.
 
 Read [references/prompt-template.md](references/prompt-template.md) when preparing a production brief.
 
@@ -62,3 +71,4 @@ Check that:
 - depth comes from graphic layering rather than rendered light;
 - the image reads as a precise architectural collage, not a photorealistic section, scrapbook, or mood board;
 - no fake labels, dimensions, text, logos, or watermark appear.
+- standalone drawings remain complete, editable, and visually consistent without depending on a combined sheet.

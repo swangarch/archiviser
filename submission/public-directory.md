@@ -104,7 +104,7 @@ Skills only.
 
 ## Initial release notes
 
-Version 0.1.7 of Archiviser is a skills-only architectural reasoning plugin with twenty skills across workflow direction, rendering, design language, architectural drawing, consistency, precise editing, and image restoration. This release presents the growing Skills library in a responsive three-column desktop grid and refines the public name Modern Brick Arches + Timber while preserving its stable skill identifier. The plugin has no MCP server, authentication, user accounts, telemetry, or independently operated data storage.
+Version 0.1.8 of Archiviser is a skills-only architectural reasoning plugin with twenty-three skills across workflow direction, rendering, design language, architectural drawing, consistency, precise editing, image restoration, and presentation. This release adds coordinated but independently deliverable site plans, floor plans, roof plans, elevations, sections, calibrated architectural sets, and a board-layout workflow that places approved standalone assets without regenerating them inside the board. The plugin has no MCP server, authentication, user accounts, telemetry, or independently operated data storage.
 
 ## Human and portal gates
 

@@ -6,7 +6,7 @@ Archiviser Skills is a growing open-source collection of ready-made AI workflows
 
 Give Codex a sketch, screenshot, CG view, or render; choose the skill that matches your task; then describe the result in normal design language. The skill tells the AI what it may change, what must remain fixed, and what to check before returning the image.
 
-The current release includes twenty **architectural visualization, design, and drawing** skills. The collection remains open and is actively expanding toward future modules for analysis, modeling, documentation, and presentation.
+The current release includes twenty-three **architectural visualization, design, drawing, consistency, and presentation** skills. The collection remains open and is actively expanding toward future modules for analysis, modeling, and documentation.
 
 ![Archiviser Skills cover](assets/cover.png)
 
@@ -75,7 +75,7 @@ A text-only model can still inspect the workflow, prepare a visual brief, write 
 
 ## Status
 
-This repository is an early `0.1.7` release. It currently targets multimodal agents and models that can:
+This repository is an early `0.1.8` release. It currently targets multimodal agents and models that can:
 
 - inspect architectural images, sketches, screenshots, or renders;
 - generate new images or edit supplied images;
@@ -119,15 +119,17 @@ The visualization module is organized as a coordinated studio rather than a flat
 | Skill | Purpose |
 | --- | --- |
 | [`draw-architectural-schematics`](skills/draw-architectural-schematics/) | Convert architectural images into precise black-and-white schematic drawings with controlled line hierarchy and material notation. |
+| [`draw-unified-orthographic-sets`](skills/draw-unified-orthographic-sets/) | Create standalone or coordinated black-and-white site plans, floor plans, roof plans, elevations, and sections. |
 | [`draw-section-perspectives`](skills/draw-section-perspectives/) | Create human-eye section-perspectives with readable cut construction, material build-ups, and linked nodes. |
 | [`draw-construction-axonometric`](skills/draw-construction-axonometric/) | Reconstruct projects as controlled black-and-white construction axonometrics and exploded assemblies. |
 | [`draw-material-line-schematics`](skills/draw-material-line-schematics/) | Create clean schematic drawings whose palest lines identify floors, walls, ceilings, roofs, glazing, and joinery. |
-| [`draw-editorial-section-collages`](skills/draw-editorial-section-collages/) | Build precise section collages from locked geometry, cut poche, clipped materials, paper edges, people, planting, and print texture. |
+| [`draw-editorial-section-collages`](skills/draw-editorial-section-collages/) | Build standalone or coordinated site plans, plans, elevations, and sections from locked linework and clipped collage materials. |
 
 ### Architectural consistency
 
 | Skill | Purpose |
 | --- | --- |
+| [`generate-consistent-architectural-sets`](skills/generate-consistent-architectural-sets/) | Generate coordinated plans, elevations, sections, axonometrics, and calibrated perspective renders from one geometric source of truth. |
 | [`lock-architecture-shell`](skills/lock-architecture-shell/) | Protect camera and fixed construction geometry during redesign or re-rendering. |
 | [`match-archviz-multiview`](skills/match-archviz-multiview/) | Keep architecture, materials, furniture, and objects consistent across multiple views. |
 
@@ -142,6 +144,12 @@ The visualization module is organized as a coordinated studio rather than a flat
 | Skill | Purpose |
 | --- | --- |
 | [`restore-archviz-quality`](skills/restore-archviz-quality/) | Rebuild degraded image quality while preserving an approved design. |
+
+### Presentation
+
+| Skill | Purpose |
+| --- | --- |
+| [`layout-architectural-boards`](skills/layout-architectural-boards/) | Arrange approved standalone drawings, diagrams, renders, and concept text into coordinated multi-board presentations. |
 
 ## Selected outputs
 

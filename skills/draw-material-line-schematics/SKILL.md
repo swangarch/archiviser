@@ -1,11 +1,19 @@
 ---
 name: draw-material-line-schematics
-description: Convert architectural photographs, renders, screenshots, sketches, plans, elevations, and sections into clean schematic drawings with disciplined line hierarchy and extremely pale material notation for floors, walls, ceilings, roofs, glazing, and fixed joinery. Use for competition sections, elevations, orthographic cutaways, or feedback that a line drawing is too empty, too rendered, too dark, materially ambiguous, uniformly weighted, or missing subtle paving, panel, board, and surface information.
+description: Convert architectural photographs, renders, screenshots, sketches, site plans, floor plans, roof plans, elevations, and sections into standalone or coordinated clean schematic drawings with disciplined line hierarchy and extremely pale material notation for floors, walls, ceilings, roofs, glazing, and fixed joinery. Use for individual orthographic drawings, complete plan-elevation-section sets, competition drawings, cutaways, or feedback that a line drawing is too empty, too rendered, too dark, materially ambiguous, uniformly weighted, or missing subtle paving, panel, board, and surface information.
 ---
 
 # Draw Material-Line Schematics
 
 Make architecture readable through a strict line hierarchy, then use barely visible material lines to explain the orientation, scale, and construction of the principal spatial surfaces. The drawing should remain schematic at first glance and become materially informative only on closer inspection.
+
+## Choose the deliverable mode
+
+- **Standalone:** Create one named site plan, floor plan, roof plan, elevation, section, cutaway, or perspective as a full-resolution file.
+- **Coordinated set:** Create every requested view as a separate file with one geometry ledger and one pale-material graphic standard.
+- **Summary sheet:** Combine completed standalone files only when the user explicitly requests a sheet; preserve the originals.
+
+Never force several small drawings onto one page when the user asks for an individual drawing. For multi-view agreement, compose with `generate-consistent-architectural-sets` and reuse its coordinates, levels, element IDs, material schedule, and camera records.
 
 ## Core workflow
 
@@ -14,8 +22,9 @@ Make architecture readable through a strict line hierarchy, then use barely visi
 3. Draw the complete architecture with no material notation first.
 4. Establish the line hierarchy before adding any surface lines.
 5. Add the minimum material lines needed to identify surface type, module, direction, and scale.
-6. Compare all grids and joints with the architecture; remove any line that becomes texture noise.
-7. Correct one graphic layer at a time.
+6. Generate one full-resolution file per requested view unless a summary sheet is explicit.
+7. Compare all grids and joints with the architecture; remove any line that becomes texture noise.
+8. Correct one graphic layer at a time.
 
 Read [references/prompt-template.md](references/prompt-template.md) when composing a production prompt.
 
@@ -59,3 +68,4 @@ Check that:
 - ceilings remain quiet and entourage remains subordinate;
 - the image reads as a schematic drawing from a distance and reveals material only up close;
 - no fake labels, dimensions, text, logos, or watermark appear.
+- every standalone file remains legible and matches the approved set without depending on a combined sheet.

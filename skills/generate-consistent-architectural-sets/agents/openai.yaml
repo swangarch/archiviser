@@ -1,0 +1,8 @@
+interface:
+  display_name: "Consistent Architectural Set"
+  short_description: "Keep plans, sections, elevations and views geometrically aligned"
+  default_prompt: "Use $generate-consistent-architectural-sets to generate a coordinated plan, elevation, section, axonometric, and perspective render from one architectural model."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  allow_implicit_invocation: true

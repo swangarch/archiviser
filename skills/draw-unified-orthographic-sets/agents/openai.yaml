@@ -1,0 +1,8 @@
+interface:
+  display_name: "Unified Orthographic Drawings"
+  short_description: "Draw consistent site plans, floor plans, elevations and sections"
+  default_prompt: "Use $draw-unified-orthographic-sets to create this plan, elevation, or section as a precise standalone architectural drawing."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  allow_implicit_invocation: true
