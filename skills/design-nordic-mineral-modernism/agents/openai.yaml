@@ -1,0 +1,8 @@
+interface:
+  display_name: "Design Nordic Mineral Modernism"
+  short_description: "Design calm Nordic spaces through mineral material depth"
+  default_prompt: "Use $design-nordic-mineral-modernism to develop this project through Nordic mineral mass, coastal light, and restrained material contrast."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  allow_implicit_invocation: true

@@ -76,6 +76,12 @@ Skills only.
 - **Expected skill/workflow:** `design-terrazzo-chic` with `lock-architecture-shell`.
 - **Expected result:** A complete, restrained design system covering terrazzo recipe, ondulé metal, bar operation, furniture, lighting, detail, and circulation rather than a surface-only material swap.
 
+### 9. Develop a Nordic mineral public interior
+
+- **Prompt:** “Turn this coastal museum room into a calm Nordic public interior with clean granite mass, deep window openings, cool-toned timber, neutral maritime daylight, and restrained furniture.”
+- **Expected skill/workflow:** `design-nordic-mineral-modernism` establishes the mineral hierarchy, climate response, spatial continuity, supporting palette, furniture, and lighting before rendering.
+- **Expected result:** A coherent, inhabited northern room with credible material scale and clean surfaces rather than a generic Scandinavian furniture filter, gloomy gray shell, or cabin aesthetic.
+
 ## Negative test cases
 
 ### 1. Missing source image for a requested edit
@@ -98,7 +104,7 @@ Skills only.
 
 ## Initial release notes
 
-Version 0.1.4 of Archiviser is a skills-only architectural reasoning plugin with sixteen skills across workflow direction, rendering, design language, architectural drawing, consistency, precise editing, and image restoration. This release adds human-eye material section-perspectives, exploded construction axonometrics, modern timber tectonic design, and subtle terrazzo-led interior design with café and bar workflows. The plugin has no MCP server, authentication, user accounts, telemetry, or independently operated data storage.
+Version 0.1.5 of Archiviser is a skills-only architectural reasoning plugin with seventeen skills across workflow direction, rendering, design language, architectural drawing, consistency, precise editing, and image restoration. This release adds Nordic mineral modernism for climate-aware granite, slate, brick, and coastal-light design, and expands modern timber tectonics to coordinate credible structural weight with contemporary craft, integrated furniture, and public use. The plugin has no MCP server, authentication, user accounts, telemetry, or independently operated data storage.
 
 ## Human and portal gates
 

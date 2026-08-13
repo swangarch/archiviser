@@ -1,7 +1,7 @@
 interface:
   display_name: "Design Modern Timber Tectonics"
-  short_description: "Design contemporary timber architecture through assembly"
-  default_prompt: "Use $design-modern-timber-tectonics to redesign this space around legible modern timber construction."
+  short_description: "Design timber architecture through structure and craft"
+  default_prompt: "Use $design-modern-timber-tectonics to develop this space through credible timber structure, integrated craft, and public use."
   icon_small: "./assets/icon.svg"
   icon_large: "./assets/icon.svg"
 policy:

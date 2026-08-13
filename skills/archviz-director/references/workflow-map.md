@@ -8,6 +8,7 @@
 | Concrete home design or refinement at any residential scale | refine-concrete-residential-interiors |
 | Subtle terrazzo-led interior, café, bar, stair, or lounge | design-terrazzo-chic |
 | Contemporary timber structure, joinery, or wood-floor system | design-modern-timber-tectonics |
+| Nordic mineral interior, coastal civic room, granite, slate, pale brick, or low northern light | design-nordic-mineral-modernism |
 | Contemporary French or Parisian residential style | design-modern-french |
 | Art Nouveau and Art Deco fusion | design-art-nouveau-deco |
 | One sofa, lamp, wall, color, or material change | edit-archviz-objects |
